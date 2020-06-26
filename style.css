@@ -5,12 +5,34 @@
 }
 
 #conteudos, #sobrenos, #rdsocial {
+    
     background: url(img/lalala.jpg);
     background-attachment: fixed;
     background-size: cover;
+
     color: white;
     
 }
+
+@media (max-width: 480px)  {
+    #conteudos h1  {
+    
+        font-size: 24px;
+    }
+    #conteudos {
+        font-size: 14px;
+    }
+    #sobrenos h1 {
+        font-size: 24px;
+    }
+    #sobrenos {
+        font-size: 14px;
+    }
+    #rdsocial {
+        font-size: 14px;
+    }
+}
+
 
 
 .teste {
