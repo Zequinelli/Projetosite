@@ -1,0 +1,89 @@
+#lala, #conteudos, #sobrenos, #rdsocial, #rodape {
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 2px solid black;
+}
+
+#conteudos, #sobrenos, #rdsocial {
+    background: url(img/lalala.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    
+}
+
+
+.teste {
+
+    border: 6px solid red;
+}
+
+
+#lala {
+    background: linear-gradient( -100deg,#8a8a8a,#000000);
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+
+
+nav.navbar-transparente {
+	padding: 15px 0px;
+    background: rgba(0,0,0,0.6);
+    padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #fff294;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #8f803e;
+}
+
+.btn {
+    color: #fff294;
+    border: 2px solid white;
+    
+}
+.btn:hover {
+    color: #8f803e;
+}
+
+.divisor {
+	width: 2px;
+	background: white;
+	margin: 12px 15px;
+}
+
+
+
+/* Carousel */
+
+.container-fluid {
+    padding: 0;
+    overflow: hidden;
+}
+
+.carousel-item {
+    height: auto;
+}
+
+
+/* Fim Carousel */
+
+#rodape {
+    background: linear-gradient( -100deg,#000000,#000000);
+    font-family: Helvetica,Arial,sans-serif;
+    
+    color: white;
+}
+
+
+.corlink {
+	color: #fff294;
+}
+
+.corlink:hover {
+    color: #8f803e;
+    text-decoration: none;
+}
