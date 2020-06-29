@@ -30,7 +30,10 @@
     #sobrenos {
         font-size: 14px;
     }
-    #rdsocial {
+    #rdsocial  {
+        font-size: 14px;
+    }
+    #rdsocial h1  {
         font-size: 14px;
     }
 }
