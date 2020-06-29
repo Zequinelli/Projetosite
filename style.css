@@ -4,9 +4,11 @@
     border-bottom: 2px solid black;
 }
 
+
+
 #conteudos, #sobrenos, #rdsocial {
     
-    background: url(img/lalala.jpg);
+    background: url(img/lalala.jpg) center fixed;
     background-attachment: fixed;
     background-size: cover;
 
