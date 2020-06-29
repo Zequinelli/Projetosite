@@ -1,20 +1,21 @@
 #lala, #conteudos, #sobrenos, #rdsocial, #rodape {
     text-align: center;
     overflow: hidden;
-    border-bottom: 2px solid black;
+    
+
+    
 }
-
-
-
 #conteudos, #sobrenos, #rdsocial {
     
     background: url(img/lalala.jpg) center fixed;
     background-attachment: fixed;
     background-size: cover;
+    padding: 18px;
 
     color: white;
-    
 }
+
+
 
 @media (max-width: 480px)  {
     #conteudos h1  {
