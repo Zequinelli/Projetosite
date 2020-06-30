@@ -1,8 +1,13 @@
-#lala, #conteudos, #sobrenos, #rdsocial, #rodape {
+body{
+    background: black;
+    margin: 0;
+
+   
+}
+#topo, #lala, #conteudos, #sobrenos, #rdsocial, #rodape {
     text-align: center;
     overflow: hidden;
     
-
     
 }
 #conteudos, #sobrenos, #rdsocial {
@@ -13,6 +18,30 @@
     padding: 18px;
 
     color: white;
+}
+
+#topo {
+    background: black ;
+    color: #c18c07;
+
+    margin: 0;
+    padding: 0;
+
+    border-bottom: 1px solid #c18c07;
+
+    font-family: monospace;
+    font-size: 14px;
+}
+
+
+#topo ul {
+    list-style: none;
+    margin: 0;
+}
+
+#topo ul li {
+    display: inline-block;
+    padding-left: 5px;
 }
 
 
@@ -41,15 +70,23 @@
 
 
 
+
+
 .teste {
 
-    border: 6px solid red;
+    border: 1px solid red;
+
+    
 }
 
 
 #lala {
-    background: linear-gradient( -100deg,#8a8a8a,#000000);
-	font-family: Helvetica,Arial,sans-serif;
+    /* background: linear-gradient( -100deg,#000000,#000000); */
+
+    background: black;
+    font-family: Helvetica,Arial,sans-serif;
+    border-bottom: 1px solid #c18c07;
+    margin-bottom: 1px;
 }
 
 
@@ -61,20 +98,20 @@ nav.navbar-transparente {
 }
 
 .navbar-light .navbar-nav .nav-link {
-	color: #fff294;
+	color: #c18c07;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-	color: #8f803e;
+	color: #c18c07;
 }
 
 .btn {
-    color: #fff294;
-    border: 2px solid white;
+    color: #c18c07;
+    border: 1px solid white;
     
 }
 .btn:hover {
-    color: #8f803e;
+    color: #c18c07;
 }
 
 .divisor {
@@ -89,7 +126,7 @@ nav.navbar-transparente {
 
 .container-fluid {
     padding: 0;
-    overflow: hidden;
+    
 }
 
 .carousel-item {
@@ -108,10 +145,10 @@ nav.navbar-transparente {
 
 
 .corlink {
-	color: #fff294;
+	color: #c18c07;
 }
 
 .corlink:hover {
-    color: #8f803e;
+    color: #c18c07;
     text-decoration: none;
 }
