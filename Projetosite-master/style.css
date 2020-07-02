@@ -1,0 +1,154 @@
+body{
+    background: black;
+    margin: 0;
+
+   
+}
+#topo, #lala, #conteudos, #sobrenos, #rdsocial, #rodape {
+    text-align: center;
+    overflow: hidden;
+    
+    
+}
+#conteudos, #sobrenos, #rdsocial {
+    
+    background: url(img/lalala.jpg) center fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 18px;
+
+    color: white;
+}
+
+#topo {
+    background: black ;
+    color: #c18c07;
+
+    margin: 0;
+    padding: 0;
+
+    border-bottom: 1px solid #c18c07;
+
+    font-family: monospace;
+    font-size: 14px;
+}
+
+
+#topo ul {
+    list-style: none;
+    margin: 0;
+}
+
+#topo ul li {
+    display: inline-block;
+    padding-left: 5px;
+}
+
+
+
+@media (max-width: 480px)  {
+    #conteudos h1  {
+    
+        font-size: 24px;
+    }
+    #conteudos {
+        font-size: 14px;
+    }
+    #sobrenos h1 {
+        font-size: 24px;
+    }
+    #sobrenos {
+        font-size: 14px;
+    }
+    #rdsocial  {
+        font-size: 14px;
+    }
+    #rdsocial h1  {
+        font-size: 24px;
+    }
+}
+
+
+
+
+
+.teste {
+
+    border: 1px solid red;
+
+    
+}
+
+
+#lala {
+    /* background: linear-gradient( -100deg,#000000,#000000); */
+
+    background: black;
+    font-family: Helvetica,Arial,sans-serif;
+    border-bottom: 1px solid #c18c07;
+    margin-bottom: 1px;
+}
+
+
+
+nav.navbar-transparente {
+	padding: 15px 0px;
+    background: rgba(0,0,0,0.6);
+    padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #c18c07;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #c18c07;
+}
+
+.btn {
+    color: #c18c07;
+    border: 1px solid white;
+    
+}
+.btn:hover {
+    color: #c18c07;
+}
+
+.divisor {
+	width: 2px;
+	background: white;
+	margin: 12px 15px;
+}
+
+
+
+/* Carousel */
+
+.container-fluid {
+    padding: 0;
+    
+}
+
+.carousel-item {
+    height: auto;
+}
+
+
+/* Fim Carousel */
+
+#rodape {
+    background: linear-gradient( -100deg,#000000,#000000);
+    font-family: Helvetica,Arial,sans-serif;
+    
+    color: white;
+}
+
+
+.corlink {
+	color: #c18c07;
+}
+
+.corlink:hover {
+    color: #c18c07;
+    text-decoration: none;
+}
